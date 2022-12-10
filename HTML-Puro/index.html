@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mEIO AMBIENTE</title>
+    <title>Meio Ambiente</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel='stylesheet' href="./style.css">
@@ -68,21 +68,20 @@
 
     <main>
         <section id="Marca" class="secoes">
-
             <div class="d-flex">
-
-                <div class="col-3 pe-4">
-                    <video width="100%" height="100%" controls="controls">
+                <div class="overlay"></div>
+                <div class="position-relative">
+                    <video width="80%" height="100%" controls="controls">
                         <source src="./imgs/Ambiental.mp4" type="video/mp4">
                         <object data="" width="320" height="240">
                             <embed width="320" height="240" src="./imgs/Ambiental.mp4">
                         </object>
                     </video>
                 </div>
-
-                <div class="noticia col-8 align-self-end">
+                
+                <div class="noticia">
                     <p class="text-wrap titulo">Nem sempre a escolha mais fácil, é a mais agradável.</p>
-                    <p class="text-break subtitulo fs-4">
+                    <p class="text subtitulo fs-4">
                         "Uma análise do Programa das Nações Unidas para o Meio Ambiente (PNUMA) alertou que o volume de
                         plástico nos mares pode triplicar até 2040, entre 23 e 37 milhões de toneladas por ano se não
                         houver
@@ -101,9 +100,9 @@
 
         <section class='secoes px-4' id="Advice">
             <div>
-                <p class="titulo">
+                <h2 class="titulo h2">
                     Esta na hora de acordar!
-                </p>
+                </h2>
                 <p class="subtitulo fs-4">
                     Opte por embalagens biodegradáveis. Isso não apenas mudará a imagem da sua empresa, mas também
                     ajudará a melhorar o nosso planeta,
@@ -114,8 +113,8 @@
         <section class="secoes" id="QuemSomos">
             <div class="d-flex">
 
-                <div class="col-3" id="TitleBox">
-                    <p class="titulo">Quem somos?</p>
+                <div class="col-3 " id="TitleBox">
+                    <p class="titulo text-center">Quem somos?</p>
                 </div>
 
                 <div class='col-9' id="QuemSomosText">
@@ -141,8 +140,8 @@
             </div>
         </section>
 
-        <section id="Anunciantes" class="secoes d-flex flex-column p">
-            <p class="titulo">Motivadores da nossa história</p>
+        <section id="Anunciantes"  class="secoes d-flex flex-column p">
+            <h1 class="titulo" id="title">Motivadores da nossa história</h1>
 
             <div class="container text-center">
                 <div class="row">
@@ -212,16 +211,16 @@
                     </div>
                 </div>
             </div>
-            <button id="mostrarMais" class="btn-outline-info border-0 bg-info font-monospace container-fluid"  onclick="MostrarMaisAnunciantes()"> Conheça mais anunciantes
-            </button>
         </section>
+        <button id="mostrarMais" class="btn-outline-info border-0 bg-info font-monospace container-fluid"  onclick="MostrarMaisAnunciantes()"> Conheça mais anunciantes
+        </button>
 
     </main>
 
-    <footer class="text-center">
+    <footer class=" text-center">
         <!-- Grid container -->
 
-        <div class="container p-4 pb-0">
+        <div class="destruicao container p-4 pb-0">
             <!-- Section: Social media -->
             <section>
                 <!-- Facebook -->
@@ -257,7 +256,7 @@
         <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <div class="copy text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2022 Copyright:
             <a class="text-white" href="https://mdbootstrap.com/">Insira o nome do projeto</a>
         </div>
